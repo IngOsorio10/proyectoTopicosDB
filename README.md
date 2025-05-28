@@ -1,8 +1,9 @@
 
 # 🌱 Proyecto de Integración de Datos para el Ecoturismo en Colombia
 
-**Autores**: Sebastián Martínez, María Montenegro, Juan Osorio, Luis Fernández  
-**Universidad**: Pontificia Universidad Javeriana - Maestría en Inteligencia Artificial  
+**Autores**: Sebastián Martínez, María Montenegro, Juan Diego Osorio, Luis CarlosFernández  
+**Universidad**: Pontificia Universidad Javeriana - Maestría en Inteligencia Artificial e Ing. De sistemas & Computación
+
 **Curso**: Tópicos Avanzados en Bases de Datos
 
 ## 🧭 Descripción General
@@ -125,14 +126,10 @@ python main.py
 ```
 📦 ecoturismo-colombia
  ┣ 📜 main.py
- ┣ 📜 requirements.txt
+ ┣ 📜 .env
  ┣ 📜 README.md
- ┣ 📁 data/
- ┃ ┗ 📜 infraestructuravial_.geojson
- ┣ 📁 dashboard/
- ┃ ┗ 📊 PowerBI.pbix
- ┗ 📁 docs/
-    ┗ 📄 Proyecto Tópicos de Base de Datos.pdf
+ ┗ 📁 data/
+  ┗ 📜 infraestructuravial_.geojson
 ```
 
 ## 🧭 Futuro
@@ -140,7 +137,3 @@ python main.py
 - Agregar paneles de monitoreo de biodiversidad.
 - Incorporar predicción de flujos turísticos.
 - Integrar datos de sensores IoT y alertas ambientales.
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
