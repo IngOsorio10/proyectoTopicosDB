@@ -77,12 +77,18 @@ El código principal realiza las siguientes acciones:
 | ...                      | ...         |
 
 ## 📊 Dashboard Final
+ [**TABLERO ECOTURISMO**](https://app.powerbi.com/onedrive/open?pbi_source=ODSPViewer&driveId=b!WhN-3GRLQka6ZX7oBgysdyMxSvBjJNtFtKc-NQrAS0FIJZdPny-WSasJS2iut6XC&itemId=01IOE4TCIIRQQ7IAYY4ZF2QR2OB54BWO53)
 
-El tablero en Power BI permite:
+Este dashboard en Power BI permite:
 
 - Filtrar por **reserva, municipio, tipo de vía y categoría turística**.
 - Ver en mapas coropléticos la **accesibilidad vial** y **servicios turísticos cercanos**.
 - Identificar zonas críticas con **baja conectividad y alta biodiversidad**.
+
+Para la parte web de los datos, y todo el proceso de renderizado del mapa se realizó mediante github. ![github](data/img.png)
+
+El proyecto utilizado es el siguiente: [***Ecoturismo_rendering***](https://github.com/Maria-mon/ecoturismo-api)
+
 
 ## 📎 Tecnologías Usadas
 
