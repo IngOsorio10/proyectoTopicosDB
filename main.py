@@ -13,8 +13,6 @@ from pymongo.server_api import ServerApi
 from shapely.geometry import Point, shape
 from sqlalchemy import create_engine, text
 
-
-
 def main():
     load_dotenv()
 
@@ -155,7 +153,7 @@ def main():
 
 
 
-    gdf = gpd.read_file("infraestructuravial_.geojson")
+    gdf = gpd.read_file("data/infraestructuravial_.geojson")
     gdf = gdf.to_crs(epsg=4326)
 
     # Lee las variables
